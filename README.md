@@ -1,2 +1,5 @@
 # digitallearning
-developer,graphics and design practitioner and aspiring  data scientist
+<i>Lewa Digital literacy offline content and curriculum management system. </i>
+Started to help students in the areas with low network and internet coverage,accessing all the needed course materials and possible practical simulations.<br>
+It intends to have a smart database configuration to allow the teachers to monitor the progress of the students,give assignments which the system should mark and only intervene incase of any struggles by any student.This system is cost friendly for the content can be accessed by  a larger group compared to having to buy a single book for every student,and incase of changes in the syllabus,you only a single update,at one point.This is likely to help improve the performance in the local schools to the national examination.Thanks to Lewa Education program for supporting this. <br>
+We have used scripting languages like <b>html,javascript,jquery,php,bootstrap and mysql database</b>.But as we learn more,we will be integrating more languages.
