@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html><link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Christian Religious Education</title>  
+  <link rel="stylesheet" type="text/css" href="css/cre.css">
+  <style >
+    
+    #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+  </style>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+ <div class="row">
+  <div class="col-sm-3" >   
+  <img src="img/cre1.png"/ style="height: 80px; padding: 5px;">
+  <a href="highschool.html"><button><h4><span class="glyphicon glyphicon-home"></span> Home </h4></button></a>
+
+  </div>
+  <div class="col-sm-9" style="align-content: center; text-align: center; background-repeat: no-repeat;  color: Blue;">      
+         <h1>CRE Form One</h1>     
+  </div>
+</div>
+<br>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="150">
+          <li class="dropdown" >
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Introduction to CRE<span class="caret"></span></a>
+          <ul class="dropdown-menu" >
+            <li><a href="#topic11">What is Christian Religious Education</a></li>
+            <li><a href="#topic12">Reasons for Studying CRE</a></li>
+            <li><a href="#topic13">Past KCSE questions on the Topic</a></li>
+          </ul>
+        </li>
+
+      </ul>      
+ </nav>
+
+    <div class="col-sm-9">
+       <div class="topic 11">
+        <h2> Introdution to Christian Religious Education</h2> 
+
+     	
+       </div>
+
+     <div class="topic 12">
+     <h2>Reasons for Studying CRE</h2> 
+&emsp;&emsp;tab
+     	
+     </div>
+
+     <div class="topic 13">
+     <h2>Past KCSE questions on the Topic</h2> 
+
+     	
+     </div>     
+    	
+    </div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"> <img src="img/uparrow.png" style="max-height: 25px;"></button>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
